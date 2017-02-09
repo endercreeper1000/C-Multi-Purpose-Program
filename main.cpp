@@ -18,6 +18,16 @@ void sphereArea(){
     Vol = ((4.0 / 3.0) * pi * (pow(radius, 3)));
     cout << "The volume of your sphere is " << Vol << endl;
 }
+
+void converttwo() {
+
+    double c, ccon;
+    cout << "Enter the celsius degree in doube"<<endl;
+    cin>>c;
+    ccon = ((c*1.8) + 32);
+    cout<<" the fahrenheit degrees are equivalent to given celsius is " <<ccon << endl;
+    }
+
 void convert() {
 
     double ccon,f,c,fcon;
